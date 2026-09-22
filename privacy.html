@@ -1,0 +1,88 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CYRUS — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+         max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .sub { opacity: .7; margin-top: 0; }
+  h2 { font-size: 1.05rem; margin-top: 2rem; }
+  ul { padding-left: 1.2rem; }
+  code { font-size: .9em; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(128,128,128,.3);
+           font-size: .9rem; opacity: .75; }
+  a { color: inherit; }
+</style>
+
+<h1>Privacy Policy</h1>
+<p class="sub">CYRUS · last updated 22 September 2026</p>
+
+<h2>Who this covers</h2>
+<p>
+  CYRUS is a personal, single-user application that runs on its operator's own
+  computer. It has one user: the person who installed it. This policy describes
+  what happens to that person's data when they connect their own Google account.
+</p>
+
+<h2>What is accessed</h2>
+<p>With the operator's explicit consent, CYRUS requests these Google scopes:</p>
+<ul>
+  <li><code>gmail.readonly</code> — to read and search their own mail;</li>
+  <li><code>gmail.send</code> — to send mail as them, at their request;</li>
+  <li><code>calendar.readonly</code> — to read their own calendar;</li>
+  <li><code>calendar.events</code> — to create and cancel their own events, when granted.</li>
+</ul>
+<p>
+  It accesses only the account that signed in. It does not read anyone else's
+  mailbox or calendar, and it cannot: the token it holds is issued for one
+  account by that account's owner.
+</p>
+
+<h2>Where the data goes</h2>
+<p>
+  CYRUS runs locally. Mail and calendar data fetched from Google is held on the
+  operator's own machine, in files and local databases under their own user
+  account, and is not uploaded to any server operated by this project. There is
+  no backend, no hosted database, and no analytics.
+</p>
+<p>
+  <strong>One exception, stated plainly.</strong> CYRUS can use language models
+  to do its work. Depending on how the operator has configured it, a request may
+  be handled either by a model running locally on their own machine, which sends
+  nothing over the network, or by Anthropic's API, in which case the text of that
+  request — which may include the content of a message or an appointment — is
+  transmitted to Anthropic for processing under their terms. Which of the two is
+  used is the operator's own setting.
+</p>
+
+<h2>What is not done</h2>
+<ul>
+  <li>Data is never sold, rented, or shared for advertising.</li>
+  <li>There is no third-party analytics or tracking of any kind.</li>
+  <li>Data is not used to train any model.</li>
+  <li>Data is not transferred to anyone except as described above.</li>
+</ul>
+
+<h2>Limited Use</h2>
+<p>
+  CYRUS's use and transfer of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+  API Services User Data Policy</a>, including the Limited Use requirements.
+</p>
+
+<h2>Retention and deletion</h2>
+<p>
+  Anything CYRUS keeps is stored locally and can be deleted by the operator at any
+  time by removing the application's data directory. Revoking access at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+  immediately stops all further access to Google data.
+</p>
+
+<h2>Contact</h2>
+<p>
+  <a href="mailto:zakariajarvis006@gmail.com">zakariajarvis006@gmail.com</a>
+</p>
+
+<footer><a href="./">← CYRUS</a></footer>
